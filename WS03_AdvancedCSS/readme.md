@@ -1,1 +1,1 @@
-Tänne laitan WS03 työpajan tehtävät
+Tänne laitan WS03 työpajan tehtävät.
