@@ -1,9 +1,40 @@
-.nav-link.active {
-    background-color: #fa8e66 !important;
-    color: white !important;
-}
+.nav-link {
+    color: rgb(245, 149, 6);
+  }
+  
+  .nav-link:hover {
+    color: rgb(155, 95, 4);
+  }
+  
+  footer {
+    width: 100%;
+    text-align: center;
+  }
 
-.nav-link.active:hover {
-    background-color: #fc7b4b !important;
-}
+  .dropdown-item.active,
+  .dropdown-item:active,
+  .dropdown-item:focus {
+    background-color: rgb(245, 149, 6);
+  }
 
+  .custom-btn {
+    background-color: rgb(245, 149, 6); /* Your custom color */
+  }
+  
+  .custom-btn:hover {
+    background-color: rgb(155, 95, 4);
+  }
+
+  .form-control:focus {
+    border-color: #ff6600;
+    box-shadow: 0 0 0 0.2rem rgba(255, 102, 0, 0.25); /* Adjust opacity if needed */
+  }
+
+  .form-check-input:checked {
+    background-color: #ff6600;
+    border-color: #ff6600;
+  } 
+
+  .form-check-input:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 102, 0, 0.25);
+  }
