@@ -11,17 +11,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #111;
+    background-color: #fa7900;
     color: white;
-    height: 60px; /* Or adjust as needed */
+    height: 50px; /* Or adjust as needed */
     font-size: 0.9rem;
     margin-top: 2rem;
     border-top: 1px solid #444;
   }
   
   footer p {
-    margin: 0;            /* Removes default top/bottom spacing */
-    line-height: 1;       /* Ensures tighter vertical alignment */
+    margin: 0; 
+    line-height: 1;  
   }
 
   .dropdown-item.active,
@@ -88,10 +88,9 @@
   }
 
   a:hover {
-    text-decoration: underline;
-    color: #034bb6;
+    color: rgb(155, 95, 4);
   }
 
-  a.youtube-link:visited {
-    color: purple !important;
-  }
+a {
+  color: rgb(245, 149, 6)
+}
