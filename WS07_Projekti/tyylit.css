@@ -93,5 +93,5 @@
   }
 
   a.youtube-link:visited {
-    color: purple;
+    color: purple !important;
   }
