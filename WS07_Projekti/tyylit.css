@@ -92,6 +92,6 @@
     color: #034bb6;
   }
 
-  a[href*="youtube.com"]:visited {
+  a.youtube-link:visited {
     color: purple;
   }
