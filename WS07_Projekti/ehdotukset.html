@@ -47,8 +47,7 @@
       </div>
     </nav>
   </header>
-  <div class="container mt-3">
-    <!-- Info Box with Heading -->
+  <div class="container mt-4">
     <div class="mb-4 p-4 bg-dark border rounded">
       <h2 class="mb-3">Ehdota artistia tai kappaletta</h2>
       <p>
@@ -96,13 +95,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
     <script>
         document.getElementById('suggestionForm').addEventListener('submit', function (e) {
-          e.preventDefault(); // prevent page reload
+          e.preventDefault();
     
-          // Show modal
           const thankYouModal = new bootstrap.Modal(document.getElementById('thankYouModal'));
           thankYouModal.show();
     
-          // Optionally reset form
           this.reset();
         });
       </script>
