@@ -103,3 +103,28 @@ a {
   border-radius: 50%;
   padding: 10px;
 }
+
+.pikkukuvake {
+  width: 32px;
+  height: 32px;
+}
+
+@media (min-width: 768px) {
+  .pikkukuvake {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .pikkukuvake {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+.tietokone-box {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
